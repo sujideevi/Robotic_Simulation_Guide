@@ -1,4 +1,4 @@
-** TB3-INSTALLATION: **
+**TB3-INSTALLATION:**
 * sudo apt install ros-kinetic-slam-gmapping
 * 'sudo apt-get install ros-kinetic-turtlebot3-*'
 
