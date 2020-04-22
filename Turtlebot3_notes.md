@@ -1,12 +1,12 @@
-**TB3-INSTALLATION:**
-sudo apt install ros-kinetic-slam-gmapping
-sudo apt-get install ros-kinetic-turtlebot3-*
+** TB3-INSTALLATION: **
+* sudo apt install ros-kinetic-slam-gmapping
+* 'sudo apt-get install ros-kinetic-turtlebot3-*'
 
-cd ~catkin_ws/src
-git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
-git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-cd ~catkin_make
+* cd ~catkin_ws/src
+* git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+* git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
+* git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+* cd ~catkin_make
 
 **CONFIGURING ROBOT:**
 export TURTLEBOT3_MODEL="waffle_pi"
